@@ -1,0 +1,40 @@
+{
+  "name": "selo-splash",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production next start"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.5",
+    "@chakra-ui/react": "^1.4.2",
+    "@chakra-ui/theme-tools": "1.1.2",
+    "@emotion/react": "11.1.5",
+    "@emotion/styled": "11.1.5",
+    "@mailchimp/mailchimp_marketing": "^3.0.53",
+    "@types/md5": "^2.3.1",
+    "framer-motion": "^4.0.3",
+    "next": "^11.0.1",
+    "next-seo": "^4.26.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.0",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.30.0",
+    "eslint-config-next": "^11.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "prettier": "^2.3.2",
+    "typescript": "4.3.2"
+  }
+}
