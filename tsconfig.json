@@ -17,14 +17,7 @@
     "baseUrl": "src",
     "paths": {
       "@components/*": ["components/*"],
-      "@UI/*": ["components/UI/*"],
-      "@utils/*": ["utils/*"],
-      "@lib/*": ["lib/*"],
-      "@interfaces": ["interfaces"],
-      "@validation/*": ["validation/*"],
-      "@constants/*": ["constants/*"],
-      "@models/*": ["models/*"],
-      "@middlewares/*": ["middlewares/*"]
+      "@utils/*": ["utils/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

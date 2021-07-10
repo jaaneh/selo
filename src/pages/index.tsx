@@ -1,11 +1,11 @@
 import { Text, Flex, Heading } from '@chakra-ui/react'
 
-import Container from '@components/Container'
+import Layout from '@components/Layout'
 import Footer from '@components/Footer'
 import Form from '@components/Form'
 
 const Index = () => (
-  <Container height='100vh'>
+  <Layout>
     <Flex
       as='main'
       justifyContent='center'
@@ -25,7 +25,7 @@ const Index = () => (
     </Flex>
 
     <Footer />
-  </Container>
+  </Layout>
 )
 
 export default Index

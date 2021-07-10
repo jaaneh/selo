@@ -1,5 +1,4 @@
-// import Link from 'next/link'
-import { Box, Text, Flex, Icon, Link } from '@chakra-ui/react'
+import { VisuallyHidden, Box, Text, Flex, Icon, Link } from '@chakra-ui/react'
 
 const Footer = () => {
   return (
@@ -10,6 +9,7 @@ const Footer = () => {
       </Text>
       <Box display='inline-flex' alignItems='center' justifyContent='center' mt={1}>
         <Link href='https://twitter.com/selofyi' isExternal>
+          <VisuallyHidden>Twitter</VisuallyHidden>
           <Icon viewBox='0 0 24 24' color='white' w={5} h={5}>
             <path
               fill='currentColor'
