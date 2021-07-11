@@ -12,10 +12,13 @@ const Index = () => (
       alignItems='center'
       flexDir='column'
       height='100vh'
-      bgGradient='linear(to-l, #7928CA, #FF0080)'
-      bgClip='text'
     >
-      <Heading as='h1' fontSize='8xl'>
+      <Heading
+        as='h1'
+        fontSize='8xl'
+        bg='linear-gradient(to right, #7928CA, #FF0080)'
+        bgClip='text'
+      >
         Selo.fyi
       </Heading>
       <Text as='h2' fontWeight='light' fontSize='md' color='brand.white' mt={4}>
